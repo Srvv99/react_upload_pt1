@@ -1,0 +1,63 @@
+.nav{
+  height: 50px;
+  width:100%;
+  
+  background-color: #336a9d;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+
+.navwrapper{
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+  
+}
+
+
+
+.leftnav{
+  
+  display:flex;
+  align-items: center;
+  margin-left:10px;
+  
+}
+
+.menuicon{
+  background-color: rgb(237, 245, 240);
+  border-radius: 4px;
+  font-size: 40px !important;
+  justify-content:space-between;
+}
+
+.rightnav{
+ margin-right:20px;
+ margin-top:5px;
+ 
+
+}
+
+
+.helpcentreicon{
+
+ 
+  border-radius: 4px;
+  font-size: 40px !important;
+
+}
+
+.menuicon:hover{
+ background-color: rgb(93, 95, 93);
+}
+
+
+

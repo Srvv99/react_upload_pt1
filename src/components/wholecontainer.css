@@ -1,0 +1,16 @@
+.container{
+  display:flex; 
+  
+}
+
+
+
+
+.mainwidgetwrapper{
+  
+  background-color: rgb(27, 6, 37);
+  display:flex;
+  flex:8;
+  justify-content: space-around; 
+}
+

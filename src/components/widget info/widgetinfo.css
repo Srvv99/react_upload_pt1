@@ -1,0 +1,151 @@
+.wholewidgets{
+  /* display:flex;
+  width:90%;
+  
+  flex-direction: column;
+  
+  justify-content: space-around;
+  flex-wrap:wrap; */
+  display: flex;
+  flex:4;
+  flex-direction:column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+
+}
+
+
+.featuredinfo{
+ background-color: black;
+ width:90%;
+ display:flex;
+ align-items: center;
+ margin-right: 10px;
+ padding-top:20px;
+ padding-bottom:20px;
+ justify-content: space-evenly;
+ 
+ flex-wrap:wrap;
+ 
+
+}
+
+
+
+.widgetitem{
+ color:white;
+ height: 200px;
+ width: 200px;
+ padding:10px;
+ margin-left: 10px;
+ margin-right:10px;
+ margin-top:20px;
+ border-radius: 10px;
+ background-color: rgb(148, 67, 75);
+ overflow-y: hidden;
+ overflow-x: hidden;
+ 
+ 
+ 
+}
+
+
+.widgetitem:hover{
+  overflow-y: scroll;
+  
+}
+
+
+#abc{
+  height:300px;
+  width: 600px;
+  
+}
+
+
+.xyz{
+  color:white;
+  background-color: rgb(67, 67, 148);
+  margin:20px;
+  border-radius: 10px;
+  /* flex-shrink:1; */
+}
+.wrapperdiv{
+  
+  height:150px;
+  
+  margin:20px;
+  overflow-y: hidden;
+}
+
+.wrapperdiv:hover{
+ 
+  overflow-y: scroll;
+
+  
+}
+
+
+
+.wrapperdiv::-webkit-scrollbar {
+  
+  width: 5px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+/* Track */
+.wrapperdiv::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 100vw;
+  height: 50px;
+}
+
+
+.wrapperdiv::-webkit-scrollbar-thumb {
+  background: rgb(15, 2, 2);
+  border-radius: 100vw;
+}
+
+
+.chart{
+  
+  background-color: rgb(230, 230, 238);
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:50px;
+  padding-right:50px;
+  
+  margin:50px;
+  border-radius: 10px;
+  background-color: rgb(88, 7, 7);
+}
+
+
+.widgetitem::-webkit-scrollbar {
+  
+  width: 5px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+/* Track */
+.widgetitem::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 100vw;
+  height: 50px;
+}
+
+
+.widgetitem::-webkit-scrollbar-thumb {
+  background: rgb(15, 2, 2);
+  border-radius: 100vw;
+}
